@@ -9,17 +9,28 @@
 
 <body>
     <header>
-
+        <h1>Dateline Ipsum Generator</h1>
     </header>
     <main>
         <section class="row">
             <div class="col">
                 <form action="">
-
+                    <label for="host">Select your host:</label>
+                    <select name="host-name" id="host">
+                        <ul>
+                            <li>Andrea Canning</li>
+                            <li>Dennis Murphy</li>
+                            <li>Josh Mankowiecz</li>
+                            <li>Keith Morrison</li>
+                        </ul>
+                    </select>
+                    <label for="quantity">How much Dateline do you need?</label>
+                    <input type="number"> paragraphs
                 </form>
             </div>
             <div class="col">
-
+                <label for="output">Your Ipsum</label>
+                <textarea name="output" id="output"></textarea>
             </div>
         </section>
     </main>
